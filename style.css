@@ -1,0 +1,184 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+    padding: 0;
+    background-color: rgb(245, 247, 248);
+}
+
+h1 {
+    color: rgb(3, 0, 12);
+    text-align: center;
+}
+
+form {
+    background-color: rgb(245, 247, 248);
+    margin: auto;
+    border-radius: 8px;
+    max-width: 700px;
+    padding: 25px;
+    box-shadow: 0 5px 7px 5px rgba(19, 28, 36, 0.489)
+}
+.form-group {
+    margin-bottom: 15px; 
+}
+
+fieldset {
+    border: 2px solid #00060b;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 19px;
+    background-color: whitesmoke;
+    color: rgb(1, 1, 8);
+}
+
+legend {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(1, 1, 7);
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 2px solid #010410;
+    border-radius: 6px;
+    width: calc(100% - 12px);
+}
+
+#skill {
+    margin-bottom: 10px; 
+}
+
+#add-skill {
+    margin-top: 10px;
+}
+
+#skills-list {
+    margin-top: 10px; 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#skills-list li {
+    background-color: #e0e0e0; /* Background for each skill */
+    margin: 5px 0; /* Space between skills */
+    padding: 5px; /* Padding for skill items */
+    border-radius: 4px; /* Rounded corners */
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #000007;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 50%; /* Adjust the width as needed */
+    font-size: 19px;
+    color: white;
+}
+
+button:hover {
+    background-color: #00060c;
+}
+
+#resumeOutput {
+    margin: auto;
+    border-radius: 8px;
+    max-width: 650px;
+    padding: 25px;
+    box-shadow: 0 5px 7px 5px rgba(19, 28, 36, 0.489);
+    border: 2px solid #01040d ;
+    background-color: whitesmoke;
+    margin-top: 30px;
+}
+
+#resumeOutput h2 {
+    color: rgb(0, 3, 9)
+}
+
+#resumeOutput h3 {
+    color: rgb(0, 3, 9);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    color: black;
+  }
+  
+  /* Share Section Styles */
+  #share-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#shareable-link {
+    display: block;
+    margin: 15px 0;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#shareable-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#button-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 10px 0; 
+}
+
+#copy-link-btn,
+#download-btn {
+    width: 250px;
+    margin: 0 10px; 
+    padding: 12px 25px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+}
+
+#copy-link-btn:hover,
+#download-btn:hover {
+    background-color: black;
+}
+
+
+  @media only screen and (max-width: 480px) {
+    h1,
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+  
+    input,
+    button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  }
+
